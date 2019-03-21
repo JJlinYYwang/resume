@@ -1,0 +1,92 @@
+.aside {
+  float: left;
+  width: 262px; 
+  /* margin-left: -20px; */
+  border-bottom: -40px;
+  border-right: #74c5b5 solid 2px;
+}
+.aside .user{
+  text-align: center;
+  padding: 30px 0 20px 0
+}
+.aside .user h1{
+  font-size: 40px;
+}
+.aside .user h1::after{
+  content:'';
+  display: block;
+  width: 80px;
+  border-top: 1px solid #d6d6d6;
+  margin : 12px auto;
+}
+.aside .user::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top:20px;
+  border-top: 15px solid #d6d6d6;
+  border-bottom: 20px solid transparent;
+  border-right: 128px solid #d6d6d6;
+  border-left: 128px solid transparent;
+  
+}
+
+.aside .contact{
+  padding: 10px;
+}
+
+.aside .contact li{
+  border-bottom: 1px solid #d6d6d6;
+  list-style: none;
+  line-height: 40px;
+  font-size: 18px;
+  padding-left: 10px
+ 
+}
+.aside .contact .iconfont{
+  border-right: 1px solid #d6d6d6;
+  padding-right: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 40px;
+  color: #7ebaa7
+}
+
+.aside .skills {
+  padding: 20px;
+}
+.aside .skills dt { 
+  margin-top: 10px;
+}
+.aside .skills dd {
+  height: 4px; 
+  border-radius: 2px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.aside .skills .mastery {
+  display: block;
+  height: 4px;
+  background-color: #74c5b5;
+}
+.aside .others h2{ 
+  margin: 15px;
+}
+
+.aside .others li{
+  border-bottom: 1px solid #d6d6d6;
+  list-style: none;
+  line-height: 40px;
+  font-size: 18px;
+  padding-left: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.aside .others .iconfont{
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  display: inline-block;
+  width: 47px;
+  color: #7ebaa7
+}

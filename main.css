@@ -1,0 +1,84 @@
+/* 清除页面样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333333
+}
+
+/* 页面宽度 */
+.layout {
+  max-width:770px;
+  margin: 0 auto;      
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; 
+}
+
+/* 当前页面样式 */
+body {
+  font: 16px/1.5 SimSun, STKaiti, "Mcrosoft YaHei", SimHei, Helvetica,Arial;
+  color: #333333  
+}
+.wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: auto;
+}
+
+.main {
+  margin-left: 260px;
+  background-color: #ffffff;
+  padding: 20px 40px 40px 30px; 
+}
+.main .intro{
+  overflow: auto;
+}
+.main .intro h2{
+  font-size: 25px;
+}
+
+.main .intro p span{
+  background: #a4dacf;
+  border: #a4dacf 1px solid;
+  border-radius: 3px ;
+}
+.main .education h2{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.main .education h3 {
+  font-size: 20px;
+  font-weight: bold;
+} 
+
+.main .education .detail li{
+  margin-left: 10px;
+}
+.main .projects h2 {
+  margin-top: 20px;
+}
+.main .projects .detail h3{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background: #eeeeee;
+  border-radius: 3p
+}
+
+.main  .projects  .detail   span{
+  background: #a4dacf;
+  border: #a4dacf 1px solid;
+  border-radius: 3px;
+}
+.main  .projects  .detail   .second {
+  margin-left: -260px;
+}
+.main  .projects  .detail  .qunaer   {
+  padding-top: 100px;
+}
